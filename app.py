@@ -1,5 +1,5 @@
 from website import create_app
 
-if __name__=="__maim__":
+if __name__=="__main__":
     app=create_app()
-    app.run(dubug=True)
+    app.run(debug=True) 
